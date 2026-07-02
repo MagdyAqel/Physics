@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">رسم المقذوف الرأسي</title>
+  <desc id="desc">كرة تتحرك رأسيا مع سهم السرعة إلى أعلى وسهم الجاذبية إلى أسفل وعلامة السرعة صفر عند القمة.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fff8"/>
+      <stop offset=".45" stop-color="#cbeee5"/>
+      <stop offset=".78" stop-color="#14566a"/>
+      <stop offset="1" stop-color="#071624"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#082436"/>
+      <stop offset="1" stop-color="#0d3147"/>
+    </linearGradient>
+    <radialGradient id="ball" cx=".35" cy=".3" r=".7">
+      <stop offset="0" stop-color="#fff8c9"/>
+      <stop offset=".55" stop-color="#efbd47"/>
+      <stop offset="1" stop-color="#d9822b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="130" y="92" width="1340" height="790" rx="34" fill="url(#panel)" stroke="#6be4d0" stroke-width="3"/>
+  <g opacity=".22" stroke="#fff" stroke-width="2">
+    <path d="M130 180H1470M130 244H1470M130 308H1470M130 372H1470M130 436H1470M130 500H1470M130 564H1470M130 628H1470M130 692H1470M130 756H1470"/>
+    <path d="M250 100V860M370 100V860M490 100V860M610 100V860M730 100V860M850 100V860M970 100V860M1090 100V860M1210 100V860M1330 100V860"/>
+  </g>
+  <rect x="131" y="660" width="1338" height="222" fill="#fff" opacity=".25"/>
+  <line x1="350" y1="760" x2="350" y2="180" stroke="#f8fff8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M350 178l-10 18h20z" fill="#f8fff8"/>
+  <line x1="260" y1="760" x2="1320" y2="760" stroke="#f15f5a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 730C570 480 570 255 570 170" fill="none" stroke="#efbd47" stroke-width="7" stroke-linecap="round" stroke-dasharray="22 16"/>
+  <path d="M570 170C570 282 570 520 570 730" fill="none" stroke="#efbd47" stroke-width="7" stroke-linecap="round" stroke-dasharray="22 16"/>
+  <line x1="570" y1="705" x2="570" y2="520" stroke="#89f6e8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 516l-13 24h26z" fill="#89f6e8"/>
+  <circle cx="570" cy="210" r="50" fill="url(#ball)"/>
+  <line x1="890" y1="235" x2="890" y2="390" stroke="#89f6e8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M890 394l-13-24h26z" fill="#89f6e8"/>
+  <rect x="760" y="176" width="440" height="132" rx="22" fill="#fff" stroke="#d9ece6" stroke-width="3"/>
+  <rect x="790" y="210" width="250" height="22" rx="10" fill="#1769aa"/>
+  <rect x="790" y="254" width="350" height="18" rx="9" fill="#18a999"/>
+  <rect x="760" y="386" width="440" height="132" rx="22" fill="#fff" stroke="#d9ece6" stroke-width="3"/>
+  <rect x="790" y="420" width="280" height="22" rx="10" fill="#f15f5a"/>
+  <rect x="790" y="464" width="230" height="18" rx="9" fill="#efbd47"/>
+  <rect x="965" y="620" width="278" height="92" rx="20" fill="#0b3147" stroke="#6be4d0" stroke-width="2"/>
+  <text x="920" y="170" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">vertical projectile</text>
+  <text x="386" y="536" fill="#89f6e8" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">velocity upward</text>
+  <text x="922" y="454" fill="#efbd47" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">g</text>
+  <text x="986" y="684" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">v = 0</text>
+  <text x="1014" y="716" fill="#89f6e8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">at peak</text>
+</svg>
