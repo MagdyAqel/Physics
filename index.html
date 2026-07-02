@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="واحة الفيزياء للصف العاشر: درس تفاعلي عن المقذوف الرأسي مع أهداف، علاقات رياضية، وسائط تعليمية، محاكاة واختبار.">
+    <title>واحة الفيزياء | المقذوف الرأسي</title>
+    <link rel="preload" as="image" href="assets/physics-hero.svg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="واحة الفيزياء">
+          <span class="brand-mark" aria-hidden="true">ف</span>
+          <span>
+            <strong>واحة الفيزياء</strong>
+            <small>الصف العاشر</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" data-nav aria-label="التنقل الرئيسي">
+          <a href="#lessons">الدروس</a>
+          <a href="#goals">الأهداف</a>
+          <a href="#concept">المفهوم</a>
+          <a href="#media">المصادر</a>
+          <a href="#assistant">فيزوقي</a>
+          <a href="#quiz">التقييم</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="تبديل النمط" aria-pressed="false">◐</button>
+          <button class="icon-btn menu-toggle" type="button" data-menu-toggle aria-label="فتح القائمة" aria-expanded="false">
+            <span class="menu-open" aria-hidden="true">☰</span>
+            <span class="menu-close" aria-hidden="true">×</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-anchor" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" data-lesson-kicker>واحة الفيزياء - الصف العاشر</p>
+            <h1 data-lesson-title>المقذوف الرأسي</h1>
+            <p class="hero-lead" data-lesson-summary>
+              رحلة تفاعلية لفهم حركة جسم يقذف إلى أعلى أو إلى أسفل على خط رأسي تحت تأثير الجاذبية الأرضية.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-scroll="#activity">ابدئي النشاط</button>
+              <button class="btn btn-secondary" type="button" data-scroll="#lessons">اختاري درسًا</button>
+            </div>
+            <div class="hero-facts" aria-label="حقائق الدرس">
+              <div>
+                <strong data-fact-1-value>g</strong>
+                <span data-fact-1-label>تسارع الجاذبية</span>
+              </div>
+              <div>
+                <strong data-fact-2-value>v = 0</strong>
+                <span data-fact-2-label>عند أعلى نقطة</span>
+              </div>
+              <div>
+                <strong data-fact-3-value>1D</strong>
+                <span data-fact-3-label>حركة رأسية فقط</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card reveal" aria-label="ملخص بصري للمقذوف الرأسي">
+            <img src="assets/physics-hero.svg" alt="رسم تعليمي يوضح كرة تقذف رأسيا مع منحنى السرعة والارتفاع">
+          </div>
+        </div>
+      </section>
+
+      <section class="course-strip section-anchor" id="lessons" aria-label="دروس واحة الفيزياء">
+        <div class="container">
+          <div class="lesson-scroller" data-lesson-tabs>
+            <button type="button" data-lesson-tab="home">الصفحة الرئيسية</button>
+            <button type="button" data-lesson-tab="units">اشتقاق الوحدات</button>
+            <button type="button" data-lesson-tab="vector-properties">خصائص المتجهات</button>
+            <button type="button" data-lesson-tab="vector-addition">جمع المتجهات</button>
+            <button type="button" data-lesson-tab="scalar-vector">الكميات القياسية والمتجهة</button>
+            <button type="button" data-lesson-tab="distance-displacement">الإزاحة والمسافة</button>
+            <button type="button" data-lesson-tab="conversions">التحويلات</button>
+            <button type="button" data-lesson-tab="constant-acceleration">الحركة بتسارع ثابت</button>
+            <button type="button" data-lesson-tab="motion-graphs">وصف منحنيات الحركة</button>
+            <button class="is-current" type="button" data-lesson-tab="vertical-projectile">المقذوف الرأسي</button>
+            <button type="button" data-lesson-tab="free-fall">السقوط الحر</button>
+            <button type="button" data-lesson-tab="forces">أشكال القوى</button>
+            <button type="button" data-lesson-tab="centripetal-force">القوة المركزية</button>
+            <button type="button" data-lesson-tab="newton-third">قانون نيوتن الثالث</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-anchor" id="goals">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">أهداف الدرس</p>
+            <h2 data-goals-heading>بنهاية الرحلة ستكونين قادرة على فهم الحركة الرأسية وتحليلها</h2>
+          </div>
+
+          <div class="goals-grid" data-goals-grid></div>
+        </div>
+      </section>
+
+      <section class="section tinted section-anchor" id="concept">
+        <div class="container concept-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">الفكرة الأساسية</p>
+            <h2 data-concept-heading>الجاذبية تغيّر السرعة، لا اتجاه المسار فقط</h2>
+            <p data-concept-text>
+              في المقذوف الرأسي ندرس حركة الجسم على محور رأسي واحد. بعد ترك الجسم لليد تكون القوة المؤثرة الرئيسة هي وزن الجسم، لذلك يكون التسارع ثابتًا وموجهًا نحو الأسفل.
+            </p>
+          </div>
+
+          <div class="concept-cards" data-concept-cards></div>
+        </div>
+      </section>
+
+      <section class="section section-anchor" id="equations">
+        <div class="container">
+          <div class="section-heading split reveal">
+            <div>
+              <p class="eyebrow">العلاقات والمفاتيح</p>
+              <h2 data-equations-heading>اختاري العلاقة من المعطيات لا من شكل السؤال</h2>
+            </div>
+            <div class="formula-note" data-formula-note>نأخذ الاتجاه الموجب إلى أعلى، لذلك يكون التسارع <strong>a = -g</strong>.</div>
+          </div>
+
+          <div class="equation-grid" data-equation-grid></div>
+        </div>
+      </section>
+
+      <section class="section simulator-section section-anchor" id="activity">
+        <div class="container simulator-layout">
+          <div class="simulator-copy reveal">
+            <p class="eyebrow">نشاط تفاعلي داخل الموقع</p>
+            <h2 data-activity-heading>غيّري السرعة والارتفاع وشاهدي النتيجة</h2>
+            <p data-activity-text>استخدمي المحاكاة المبسطة لتوقّع زمن الوصول إلى القمة، أقصى ارتفاع، والزمن الكلي حتى العودة إلى الأرض.</p>
+          </div>
+
+          <div class="simulator-panel reveal">
+            <div class="sim-visual" aria-label="محاكاة حركة المقذوف الرأسي">
+              <div class="height-axis"><span>ارتفاع</span></div>
+              <div class="ball-track">
+                <div class="ball" data-ball></div>
+                <div class="peak-line" data-peak-line></div>
+              </div>
+              <div class="ground">سطح الأرض</div>
+            </div>
+
+            <div class="sim-controls">
+              <label>
+                السرعة الابتدائية: <strong><span data-v0-label>20</span> m/s</strong>
+                <input type="range" min="5" max="45" value="20" step="1" data-v0>
+              </label>
+              <label>
+                الارتفاع الابتدائي: <strong><span data-y0-label>0</span> m</strong>
+                <input type="range" min="0" max="30" value="0" step="1" data-y0>
+              </label>
+            </div>
+
+            <div class="sim-results">
+              <div>
+                <strong data-time-peak>2.04 s</strong>
+                <span>زمن الوصول للقمة</span>
+              </div>
+              <div>
+                <strong data-max-height>20.4 m</strong>
+                <span>أقصى ارتفاع</span>
+              </div>
+              <div>
+                <strong data-total-time>4.08 s</strong>
+                <span>زمن الحركة الكلي</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section media-section section-anchor" id="media">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">اختاري طريقة التعلم</p>
+            <h2 data-media-heading>العرض التقديمي والفيديو داخل الصفحة</h2>
+            <p>كل المصادر المضمنة تظهر هنا داخل الموقع. لن تحتاج الطالبة إلى مغادرة الصفحة أو فتح Google Sites.</p>
+          </div>
+
+          <div class="media-grid" data-media-grid></div>
+        </div>
+      </section>
+
+      <section class="section tinted section-anchor" id="assistant">
+        <div class="container assistant-layout reveal">
+          <div class="assistant-copy">
+            <p class="eyebrow">مساعد فيزوقي داخل الموقع</p>
+            <h2>اسألي عن الدرس دون مغادرة الصفحة</h2>
+            <p>اختاري سؤالًا سريعًا، وسيعرض فيزوقي إجابة مرتبطة بالدرس الحالي.</p>
+          </div>
+          <div class="assistant-widget">
+            <div class="assistant-prompts" data-assistant-prompts></div>
+            <div class="assistant-answer" data-assistant-answer role="status" aria-live="polite">اختاري سؤالًا لبدء المساعدة.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tinted section-anchor" id="interactive">
+        <div class="container interactive-card reveal">
+          <div>
+            <p class="eyebrow">رحلة تفاعلية</p>
+            <h2>الآن لنبدأ النشاط التفاعلي</h2>
+            <p data-interactive-text>اختاري البطاقة الصحيحة، ثم قارني الإجابة بما تعلمته في الدرس.</p>
+          </div>
+          <div class="mini-activity" data-mini-activity></div>
+        </div>
+      </section>
+
+      <section class="section section-anchor" id="quiz">
+        <div class="container quiz-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">تقييم سريع</p>
+            <h2 data-quiz-heading>اختبري فهمك قبل الانتقال إلى الدرس التالي</h2>
+          </div>
+
+          <form class="quiz-card reveal" data-quiz>
+            <div data-quiz-fields></div>
+
+            <button class="btn btn-primary" type="submit">تحقق من الإجابات</button>
+            <div class="quiz-result" data-quiz-result role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="pager">
+        <div class="container pager-inner">
+          <button class="btn btn-outline" type="button" data-prev-lesson>الصفحة السابقة</button>
+          <button class="btn btn-primary" type="button" data-next-lesson>الصفحة التالية</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> واحة الفيزياء - الصف العاشر</p>
+        <a href="#home">العودة للأعلى</a>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" data-back-to-top aria-label="العودة للأعلى">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
